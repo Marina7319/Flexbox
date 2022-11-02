@@ -1,0 +1,44 @@
+html { 
+    box-sizing: border-box;
+}
+*, 
+*:before, *:after{
+    box-sizing:inherit;
+}
+
+.container .week .workweek,
+.container .week .weekend { 
+    width : 100%;
+    height: 125px;
+    
+}
+.container .week .sat,
+.container .week .sun{
+    width : 50%;
+    height: 125px;
+}
+.container .week, 
+.container .notes {
+   display: flex;
+   align-items: center;  
+   
+}
+.container, 
+.container .week,
+.container .notes
+{
+    display: flex;
+    align-items: center;
+}
+.container 
+{ 
+    max-width: 65vw;
+}
+
+.container .week span, 
+.container .notes span {
+      border: 1px black solid; 
+}
+.container .notes {
+    flex-direction: column;
+}

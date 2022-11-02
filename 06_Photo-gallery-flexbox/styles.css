@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    background-color: whitesmoke;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+li {
+    display: flex;
+    padding: 20px;
+    
+}
+img { 
+    padding: 20px;
+    border: solid 12px black;
+    box-shadow: 0px 10px 25px -9px rgba(0,0,0,0.75);
+    justify-content:center;
+    background-size: contains;
+    object-fit:contain;
+    width:250px;
+    height:350px;  
+}

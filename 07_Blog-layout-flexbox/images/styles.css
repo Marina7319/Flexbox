@@ -1,0 +1,153 @@
+html 
+{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after 
+{
+    box-sizing: inherit;
+}
+
+.page .header 
+{
+    display: inline-block;
+    border-bottom: 1px solid black;
+    width: 90%;
+}
+
+
+.page .header .link-item-site-title 
+{
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.page .header .link-item-site-title 
+{
+    font-size: 24px;
+    margin-right: 805px;
+    padding-right: 90px;
+    color:black;
+    text-decoration: none;
+}
+
+
+body 
+{
+    margin: 0px;
+    padding-left: 40px;
+    background-color: rgb(238, 238, 238);
+}
+.img-two 
+{
+    float : left;
+    margin-right : 19px;
+    border: 5px solid;
+    border-color: rgb(255, 255, 255);
+
+}
+.first-article { 
+    padding-top: 250px;
+}
+
+.paragraphOne a
+{
+    float : right;  
+}
+
+.paragraphTwo a 
+{
+    float : right;
+}
+
+.img-one 
+{
+    float : right;
+    margin-left : 19px;
+    border: 5px solid; 
+    border-color: rgb(255, 255, 255);
+}
+
+.header .nav .elements 
+{
+    float: right;
+    padding-right : 10px;
+}
+
+.main-content 
+{
+    width : 80%;
+}
+
+.main-content article
+{
+    width : 70%;
+}
+.main-content .heading-level {
+    font-family : Georgia, serif;
+    size: 1em/1.2;
+}
+
+.aside .categories , 
+.aside .social 
+{ 
+    list-style: square;
+    padding: 2px;
+    margin:2px;
+}
+
+.page .aside .categories .categories-elements , 
+.page .aside .social .categories-social 
+{ 
+    padding: 2px;
+    margin:2px;
+    color:rgb(0, 153, 0);
+}
+
+.page .aside 
+{ 
+    float : right;
+    padding-right: 0px;
+}
+.aside h3 
+{
+    font-family : Georgia, serif;
+    size: 1em/1.2;
+}
+
+
+.page .main-content .p-blockquate .paragraph-one
+{
+    width : 50%;
+    float:left;
+        
+}
+.page .main-content .p-blockquate blockquote {
+    font-family : Georgia, serif; 
+    width: 40%;
+    float: right;
+    border-left: 1px solid  grey;
+}
+
+.main-content .p-blockquate .paragraph-two-author
+{
+float: right;
+font-family : Georgia, serif;
+}
+
+.page .p-blockquate .paragraph-two
+{
+font-family : Georgia, serif;
+padding-left: 25px;
+margin-left: 25px;
+}
+
+.page { 
+    display: flex;
+    flex-wrap: wrap;
+}
+.page .main-content article { 
+    top: 250px;
+}

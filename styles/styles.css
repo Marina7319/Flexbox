@@ -1,0 +1,76 @@
+.container-grid .item:nth-child(1) {
+    background-color: red;
+   
+}
+
+.container-grid .item:nth-child(2) {
+    background-color: yellow;
+}
+
+.container-grid .item:nth-child(3) {
+    background-color: pink;
+}
+
+.container-grid .item:nth-child(4) {
+    background-color: blue;
+}
+
+.container-grid .item:nth-child(5) {
+    background-color: green;
+}
+
+.container-grid .item:nth-child(6) {
+    background-color: brown;
+}
+
+.container-grid .item:nth-child(7) {
+    background-color: grey;
+}
+
+.container-grid .item:nth-child(8) {
+    background-color: orange; 
+}
+
+.container-grid .item:nth-child(9) {
+    background-color:lime;
+}
+
+.container-flex .item:nth-child(1) {
+    background-color:lawngreen;
+}
+
+.container-flex .item:nth-child(2) {
+    background-color:lavender;
+}
+
+.container-flex .item:nth-child(3) {
+    background-color:deeppink;
+}
+
+.container-flex .item:nth-child(4) {
+    background-color:deepskyblue;
+}
+
+.container-flex .item:nth-child(5) {
+    background-color:darkgrey;
+}
+
+.container-flex .item:nth-child(6) {
+    background-color:cornsilk;
+}
+
+.container-flex .item:nth-child(7) {
+    background-color:beige;
+}
+
+.container-flex .item:nth-child(8) {
+    background-color::azure;
+}
+
+.container-flex .item:nth-child(9) {
+    background-color:blue;
+}
+
+.container-flex .item:nth-child(10) {
+    background-color:blueviolet;
+}

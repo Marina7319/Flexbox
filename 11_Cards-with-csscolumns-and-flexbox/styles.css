@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+h2{ 
+    margin-left: 20%;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    margin: 0 auto;
+    max-width: 300px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 10px 25px -9px rgba(0, 0, 0, 0.75);
+    display:inline-block;
+    width: calc((100% - 32px)/3);
+    outline: 0px;
+    overflow: hidden;
+    border-width: 0px;
+    margin: 15px; 
+}
+
+.card h3 {
+    font-weight: normal;
+    margin-bottom: -15px;
+
+}
+.card p { 
+    margin-bottom : 25px;
+}
+
+.card h3,
+.card p,
+.card footer {
+    padding-left: 25px;
+}
+
+.card footer {
+    border-top: 3px solid rgb(238, 238, 238);
+    padding: 25px;
+}
+.cards-layout {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 1200px;  
+    margin-left: 20%;
+}
+
+

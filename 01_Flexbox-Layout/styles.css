@@ -1,0 +1,46 @@
+body {
+    background-color: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header,
+aside,
+main,
+footer {
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+    margin : 5px;
+
+}
+header p,
+aside p,
+main p,
+footer p {
+
+top: 5px;
+}
+
+
+header,
+footer {
+    flex-basis: 100%;
+   
+}
+
+main {
+    flex: 8 1 40rem;
+    width : 40rem;
+    float: right;
+    
+}
+
+aside {
+    flex: 2 1 20rem; 
+  
+   
+}
+

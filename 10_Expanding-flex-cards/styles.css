@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.container img {
+    border-radius: 25px;
+    border: 10px solid rgb(238, 238, 238);
+    box-shadow: 5px 10px 25px -9px rgb(238, 238, 238);
+}
+
+.container .img-one {
+    position: static;
+
+
+}
+
+.container .img-two {
+    position: relative;
+    left: -500px;
+    z-index: 1;
+}
+
+.container .img-tree {
+    position: relative;
+    left: -500px;
+    max-width: 185px;
+    overflow: hidden;
+    text-indent: -140px;
+}
+
+.container .img-four {
+    position: relative;
+    left: -500px;
+    max-width: 185px;
+    overflow: hidden;
+    text-indent: -140px;
+
+}
